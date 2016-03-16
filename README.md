@@ -15,5 +15,5 @@ CS298 Master's project Instruction on how to run (OS required Windows 8.1 or 10)
 5. Download the "input.txt" file from the git hub project section of "Hybrid Similarity Function for Big Data Entity Matching using R-Swoosh" and place it on desktop.
 6. Click on Run --> Edit Configuration. Add input argument as file location for input file "input.txt".               Example:"C:/Users/Vimal/Desktop/input.txt".
 7. Click on Run --> Edit Configuration. Add input argument as file location for output file "clusters.txt”.
-Example: "C:\\Users\\vimal\\Desktop\\clusters.txt”. Give at least a single space between the arguments.
+Example: "C:\\Users\\vimal\\Desktop\\clusters.txt”. Give at least a single space between the arguments
 8.Click on "Apply" and click on "Run".Observe that output file is generated in the specified path.
