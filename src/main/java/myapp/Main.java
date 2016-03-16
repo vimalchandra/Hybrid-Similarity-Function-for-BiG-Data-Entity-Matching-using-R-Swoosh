@@ -77,7 +77,7 @@ public class Main {
 		    public static void main(String[] args) throws IOException{
 			
 			
-			String testFile = "C:/Users/SAIRAM/Desktop/input.txt";
+			String testFile = args[0];
 			JavaSparkContext sc = new JavaSparkContext("local", "SimpleAPP");
 			
 			JavaRDD<String> logData = sc.textFile(testFile).cache();
@@ -128,7 +128,7 @@ public class Main {
 				
 				JavaPairRDD<Double,Iterable<String>> groupsOfData = groupData.groupByKey();
 				
-				File outputFile = new File("C:\\Users\\SAIRAM\\Desktop\\clusters.txt");
+				File outputFile = new File(args[1]);
 				FileWriter fw = new FileWriter(outputFile);
 				
 				int clusterCount = 0;
